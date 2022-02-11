@@ -307,11 +307,11 @@ kurr.on('group-participants-update', async (anu) => {
 
 				img = await getBuffer(ppUrl)
 
-				teks = ` Hallo tod @${num.split('@')[0]}\nWELCOME IN GROUP *${mdata.subject}*\nINTRO DALAM WAKTU 3 MENIT!!! GA INTRI KICK!!!`
+				teks = `*${mdata.subject}*\n\nWOYYY @${num.split('@')[0]}\n\nINTRO DALAM WAKTU 3 MENIT!!! GA INTRO KICK!!!`
 
-				sendButImage(anu.jid, teks, `Xavhier bot`, img,but = [{buttonId:`apaaja`, 
+				sendButImage(anu.jid, teks, `Xavhier bot`, img,but = [{buttonId:`INTRO`, 
 
-               buttonText:{displayText: 'WELCOME'},type:1}], options = {contextInfo: {mentionedJid: [num, htod]}})
+               buttonText:{displayText: 'INTRO AJG'},type:1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
 			} else if (anu.action == 'remove') {
 
@@ -329,9 +329,9 @@ kurr.on('group-participants-update', async (anu) => {
 
 				img = await getBuffer(kuburan)
 
-				teks = `MARI KITA DOAKAN\nYANG TERBAIK UNTUK\n@${num.split('@')[0]}\nATAS KEPERGIANYA DARI\n*${mdata.subject}*`
+				teks = `BEBAN DH OUT\n\n@${num.split('@')[0]}\n\nJANGAN LUPA NITIP GORENGAN`
 
-				sendButImage(anu.jid, teks, `Xavhier bot`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `AMIN`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
+				sendButImage(anu.jid, teks, `Xavhier bot`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `2REBU AJA`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
 			} else if (anu.action == 'promote') {
 
